@@ -1,0 +1,9 @@
+﻿customer_id,customer_name,industry,region
+C001,"Alpha Electronics Co., Ltd.",Electronics,East China
+C002,"Bright Semiconductor Co., Ltd.",Semiconductor,East China
+C003,"Central Micro Devices Co., Ltd.",Electronics,South China
+C004,"Delta Components Co., Ltd.",Components,East China
+C005,"Eastwave Technology Co., Ltd.",Technology,North China
+C006,"Future Circuits Co., Ltd.",Electronics,South China
+C007,"Golden Chip Co., Ltd.",Semiconductor,Central China
+C008,"Horizon Systems Co., Ltd.",Technology,North China

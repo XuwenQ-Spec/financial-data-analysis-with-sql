@@ -1,0 +1,20 @@
+{
+  "customers": 8,
+  "orders": 24,
+  "invoices": 21,
+  "payments": 18,
+  "uninvoiced_orders": [
+    "O005",
+    "O012",
+    "O023"
+  ],
+  "known_invoice_differences": {
+    "O007": 5000
+  },
+  "known_excess_payments": {
+    "I007": 3000,
+    "I013": 2000,
+    "I021": 4000
+  },
+  "as_of_date": "2026-06-30"
+}
