@@ -1,0 +1,22 @@
+﻿invoice_id,order_id,customer_name,invoice_amount,total_paid,outstanding_amount,excess_payment,payment_status
+I001,O001,"Alpha Electronics Co., Ltd.",120000,120000,0,0,足额回款
+I002,O002,"Bright Semiconductor Co., Ltd.",85000,85000,0,0,足额回款
+I003,O003,"Central Micro Devices Co., Ltd.",65000,0,65000,0,未回款
+I004,O004,"Alpha Electronics Co., Ltd.",150000,150000,0,0,足额回款
+I005,O006,"Eastwave Technology Co., Ltd.",98000,60000,38000,0,部分回款
+I006,O007,"Bright Semiconductor Co., Ltd.",105000,105000,0,0,足额回款
+I007,O008,"Future Circuits Co., Ltd.",72000,75000,0,3000,超额回款
+I008,O009,"Central Micro Devices Co., Ltd.",56000,56000,0,0,足额回款
+I009,O010,"Alpha Electronics Co., Ltd.",180000,100000,80000,0,部分回款
+I010,O011,"Golden Chip Co., Ltd.",39000,0,39000,0,未回款
+I011,O013,"Eastwave Technology Co., Ltd.",125000,125000,0,0,足额回款
+I012,O014,"Bright Semiconductor Co., Ltd.",95000,40000,55000,0,部分回款
+I013,O015,"Horizon Systems Co., Ltd.",48000,50000,0,2000,超额回款
+I014,O016,"Alpha Electronics Co., Ltd.",160000,0,160000,0,未回款
+I015,O017,"Future Circuits Co., Ltd.",88000,30000,58000,0,部分回款
+I016,O018,"Central Micro Devices Co., Ltd.",73000,0,73000,0,未回款
+I017,O019,"Golden Chip Co., Ltd.",52000,52000,0,0,足额回款
+I018,O020,"Delta Components Co., Ltd.",67000,0,67000,0,未回款
+I019,O021,"Horizon Systems Co., Ltd.",41000,41000,0,0,足额回款
+I020,O022,"Eastwave Technology Co., Ltd.",105000,0,105000,0,未回款
+I021,O024,"Future Circuits Co., Ltd.",76000,80000,0,4000,超额回款
