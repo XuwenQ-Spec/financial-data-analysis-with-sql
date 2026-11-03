@@ -1,0 +1,5 @@
+﻿order_id,customer_name,order_amount,invoice_count,invoice_amount,difference,status
+O005,"Delta Components Co., Ltd.",45000,0,0,45000,未开票
+O007,"Bright Semiconductor Co., Ltd.",110000,1,105000,5000,开票金额不足
+O012,"Delta Components Co., Ltd.",62000,0,0,62000,未开票
+O023,"Bright Semiconductor Co., Ltd.",90000,0,0,90000,未开票
