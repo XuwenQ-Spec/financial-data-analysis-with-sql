@@ -1,8 +1,8 @@
-# Financial Data Analysis with SQL
+ Financial Data Analysis with SQL
 
-**A Practical Financial Data Analytics Project Using SQLite and SQL**
+A Practical Financial Data Analytics Project Using SQLite and SQL**
 
-## 1. Project Overview
+1. Project Overview
 
 This project demonstrates how SQL can be applied to financial data analysis using a simulated relational database containing customer information, sales orders, invoices, and payment records.
 
@@ -10,7 +10,7 @@ The project focuses on financial data reconciliation, accounts receivable analys
 
 All datasets are simulated and created for educational and portfolio purposes.
 
-## 2. Project Objectives
+ 2. Project Objectives
 
 - Analyze monthly sales order amounts and trends.
 - Reconcile sales orders with issued invoices.
@@ -19,7 +19,7 @@ All datasets are simulated and created for educational and portfolio purposes.
 - Evaluate customer sales concentration and cumulative sales contribution.
 - Identify unpaid invoices, partial payments, and excess customer payments.
 
-## 3. Technology Stack
+ 3. Technology Stack
 
 | Technology | Application |
 |---|---|
@@ -28,7 +28,7 @@ All datasets are simulated and created for educational and portfolio purposes.
 | DB Browser for SQLite | Database management and query execution |
 | Excel | Data review and result validation |
 
-### SQL Techniques
+SQL Techniques
 
 - SELECT, WHERE and ORDER BY
 - GROUP BY and aggregate functions (SUM, COUNT)
@@ -38,7 +38,7 @@ All datasets are simulated and created for educational and portfolio purposes.
 - Window Functions (OVER)
 - Date calculations and conditional aggregation
 
-## 4. Database Structure
+ 4. Database Structure
 
 The database consists of four relational tables:
 
@@ -56,27 +56,27 @@ Dataset overview:
 - 21 sales invoices
 - 18 payment records
 
-## 5. Key Analysis Modules and Results
+ 5. Key Analysis Modules and Results
 
-### 5.1 Monthly Sales Order Analysis
+5.1 Monthly Sales Order Analysis
 
 Aggregated sales order amounts and order counts by month.
 
-**Key result:**
+Key result:
 - Total orders: 24
 - Total order amount: 2,102,000
 - Analysis period: January–June 2026
 
-### 5.2 Order-Invoice Reconciliation
+ 5.2 Order-Invoice Reconciliation
 
 Used LEFT JOIN and conditional logic to identify missing invoices and discrepancies between order amounts and invoiced amounts.
 
-**Key findings:**
+Key findings:
 - 3 uninvoiced orders, totaling 197,000
 - 1 under-invoiced order, with a difference of 5,000
 - 4 exception records identified
 
-### 5.3 Accounts Receivable Aging Analysis
+5.3 Accounts Receivable Aging Analysis
 
 Calculated outstanding receivables and classified balances by overdue periods as of June 30, 2026.
 
@@ -87,17 +87,17 @@ Calculated outstanding receivables and classified balances by overdue periods as
 | 31–60 Days | 119,000 |
 | 61–90 Days | 0 |
 | Over 90 Days | 103,000 |
-| **Total** | **740,000** |
+| Total | 740,000 |
 
-### 5.4 Customer Sales Concentration Analysis
+5.4 Customer Sales Concentration Analysis
 
 Calculated customer-level order amounts, sales contribution percentages, and cumulative sales concentration using SQL window functions.
 
-**Key findings:**
+Key findings:
 - Largest customer's sales share: 29.02%
 - Top three customers' cumulative sales share: 62.70%
 
-### 5.5 Payment Reconciliation and Exception Identification
+ 5.5 Payment Reconciliation and Exception Identification
 
 Compared invoice amounts with cumulative customer receipts to identify payment statuses and excess receipts.
 
@@ -109,11 +109,11 @@ Compared invoice amounts with cumulative customer receipts to identify payment s
 | Excess Payment | 3 |
 | **Total** | **21** |
 
-**Key finding:**
+Key finding:
 
 Three excess payment records were identified, with a combined excess amount of 9,000.
 
-## 6. Repository Structure
+ 6. Repository Structure
 
 ```text
 financial-data-analysis-with-sql/
@@ -149,7 +149,7 @@ financial-data-analysis-with-sql/
 └── README.md
 ```
 
-## 7. How to Run
+ 7. How to Run
 
 1. Download or clone this repository.
 2. Open `database/financial_analysis.db` using DB Browser for SQLite.
@@ -159,9 +159,9 @@ financial-data-analysis-with-sql/
 
 Alternatively, create a new SQLite database, execute `01_create_tables.sql`, and import the four CSV files from `data/`.
 
-**Note:** `01_create_tables.sql` contains DROP TABLE statements for initializing a database. Run it only on a new or disposable database, not on an existing database containing records.
+Note: `01_create_tables.sql` contains DROP TABLE statements for initializing a database. Run it only on a new or disposable database, not on an existing database containing records.
 
-## 8. Skills Demonstrated
+ 8. Skills Demonstrated
 
 - Relational database design and data management
 - SQL querying and multi-table data integration
@@ -170,10 +170,10 @@ Alternatively, create a new SQLite database, execute `01_create_tables.sql`, and
 - Customer sales concentration analysis
 - Financial exception identification and reporting
 
-## 9. Data Disclaimer
+ 9. Data Disclaimer
 
 All customer names, transaction records, dates, and monetary amounts are fictional and generated for educational and portfolio demonstration purposes.
 
 No actual company financial information, confidential business records, or client data are included.
 
-**Reference date:** June 30, 2026.
+Reference date: June 30, 2026.
